@@ -1,3 +1,4 @@
+# React
 ### React and JSX Essentials
 
 1. **React**: is a popular library used to create user interfaces. React components use Pascal case (or upper camel case) variable names
