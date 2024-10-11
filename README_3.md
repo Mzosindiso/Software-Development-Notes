@@ -28,21 +28,65 @@
     <li>Presentational component - </li>
     <li>Container components - </li>
 </ul>
-<p>JSX is a combination of JavaScript and the X from XML. It is a JavaScript extension that allows us to define React elements using a tag-based syntax directly within our JavaScript code.</p>
-<ol>
-    <li>Props - are used to pass data from component to component</li>
-    <li>State - it's what makes your application grow beyond static content being displayed on a website, because a user can interact with it</li>
-    <ul>
-        <li>Props are used to pass information down the component tree, state is used to alter information over time.</li>
-    </ul>
-</ol>
 
-### Hooks <br>
+### React and JSX Essentials
 
-<p>Hooks works similarly with JavaScript variables (store data and later perform operations on that data), but they are designed to manage state in functional components</p>
-1. useState is a Hook that lets you add React state to function components. <br>
-2. The useEffect Hook is useful to perform additional work behind the scenes, without affecting the appearance of the webpage.<br>
+1. **JSX**: Stands for JavaScript XML. It allows you to write HTML-like syntax in your JavaScript.
 
-React Router is a powerful library for managing navigation and routing in React applications. It allows you to create a multi-page experience in a single-page application by mapping URLs to components. 
+2. **Props**: Short for properties, props are how data is passed from a parent component to a child component.
 
+3. **State**: Used to store and manage data within a component. It allows components to respond to user inputs or updates.
 
+4. **Virtual DOM**: A key feature that optimizes rendering performance by minimizing direct updates to the actual DOM.
+
+5. **Passing Data**: You can send data from a parent to a child component using props.
+
+6. **React Hooks**: Special functions that let you use state and other React features in functional components.
+
+7. **useEffect Hook**: This hook is used for handling side effects in functional components, like fetching data or directly manipulating the DOM.
+
+8. **JSX Syntax**: Similar to XML or HTML, making it intuitive for those familiar with web markup.
+
+9. **ReactDOM Library**: Responsible for rendering React components into the DOM, essentially connecting React with the browser.
+
+10. **Event Handling**: In React, you define event handlers directly in JSX, making it straightforward to manage user interactions.
+
+11. **useState Hook**: This hook is specifically for managing state in functional components.
+
+12. **Component Benefits**: React components promote reusable and modular code, making it easier to maintain and scale applications.
+
+13. **render() Function**: Responsible for rendering the component's output (HTML) to the DOM.
+
+14. **Key Prop**: Essential for lists, it provides a unique identifier for each item, helping React efficiently update the UI.
+
+15. **Conditional Rendering**: Achieved using ternary operators or logical operators (like `&&`) within JSX.
+
+16. **forwardRef Function**: Allows refs to be passed to child components, enabling direct DOM manipulations when needed.
+
+17. **Key Prop in Lists**: Again, it's about specifying unique identifiers to optimize rendering of list items.
+
+18. **memo Function**: Used to memoize component rendering, which can improve performance by preventing unnecessary re-renders.
+
+19. **Updating State in Class Components**: You do this using the `setState()` method, which schedules updates to the component's state.
+
+20. **Context API**: A powerful tool for sharing data between components without having to pass props through every level of the component tree.
+
+21. **createContext Function**: This function creates a context object, which is part of the Context API.
+
+22. **Asynchronous Operations**: Handled in React using `async` and `await` within functional components for cleaner, more manageable code.
+
+23. **Router Component**: In React Router, this component manages rendering different components based on the current URL.
+
+24. **Defining Routes**: You define routes by importing the `Route` component from the `react-router-dom` library.
+
+25. **NavLink Component**: Used for navigation links, it comes with built-in styling for the active route.
+
+26. **withRouter HOC**: A higher-order component that provides routing props (like match, location, and history) to any wrapped component.
+
+27. **Link Component**: Similar to `<a>` tags in HTML, but it allows navigation between routes without a full page refresh.
+
+28. **Accessing URL Parameters**: You can access parameters in the URL via the `params` object found in the `match` prop.
+
+29. **Switch Component**: Renders the first child route that matches the current URL, useful for exclusive routing.
+
+30. **Exact Prop**: Ensures that the route matches the exact URL path, preventing partial matches.
